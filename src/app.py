@@ -4,10 +4,6 @@ def sum(a,b):
 """
 
 from flask import Flask
-<<<<<<< HEAD
-app = Flask(__name__)
-=======
-
 app = Flask(__name__)
 
 @app.route("/")
@@ -18,4 +14,3 @@ def index():
 def sum(a: int, b: int):
     nums_sum = a + b
     return "La suma es: " + str(nums_sum)
->>>>>>> feature
